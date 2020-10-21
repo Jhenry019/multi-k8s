@@ -15,7 +15,7 @@
   margin-top: 4em;
   padding: 3em;
   border: 1px solid #f7f7f7;
-  box-shadow: 1px 3px 10px 3px #00000007;
+  box-shadow: 1px 3px 10px 7px #00000009;
 }
 
 @media screen and (max-width: 600px) {
