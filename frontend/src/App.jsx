@@ -14,7 +14,7 @@ function App() {
     <Router>
       <div className="App">
         <header className="fib-header">
-          <h1>Fib Calculator</h1>
+          <h1>Fib Calculator v2</h1>
           <Link className="nav-link" to="/">Home</Link>
           <Link className="nav-link" to="/otherpage">About</Link>
         </header>
