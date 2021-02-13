@@ -10,6 +10,7 @@ docker push jhdev96/multi-client:$SHA
 docker push jhdev96/multi-server:$SHA
 docker push jhdev96/multi-worker:$SHA
 
+kubectl delete deployments/server-deployment
 kubectl apply -f k8s
 kubectl set image deployments/server-deployment server=jhdev96/multi-server:$SHA
 kubectl set image deployments/client-deployment frontend=jhdev96/multi-client:$SHA
