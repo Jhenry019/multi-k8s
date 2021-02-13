@@ -16,6 +16,8 @@ spec:
         - name: postgres-storage
           persistentVolumeClaim:
             claimName: db-persistent-volume-claim
+          accessModes:
+            - readWriteMany
       containers:
         - name: postgres
           image: postgres
